@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Snak Om Døden</string>
+
+    <string name="action_insert_dummy_data">Indsæt prøve data</string>
+
+    <string name="action_delete_all_entries">Slet alle ønsker</string>
+
+    <string name="editor_activity_title">Tilføj</string>
+
+    <string name="action_save">Gem</string>
+
+    <string name="action_delete">Slet</string>
+
+    <string name="begraves_unknown">Ved ikke</string>
+
+    <string name="begraves_begraves">Begraves</string>
+
+    <string name="begraves_bisaettes">Bisættes</string>
+
+    <!-- Gem -->
+    <string name="main_activity_name">All Tasks</string>
+    <string name="add_task_activity_name">Add a New Task</string>
+
+    <!-- Strings for GemActivity -->
+    <string name="priority_1">1</string>
+    <string name="priority_2">2</string>
+    <string name="priority_3">3</string>
+
+    <!-- Strings for AddTaskActivity -->
+    <!-- This etaskEntrytask has a unicode character for "..." = "&#8230;" -->
+    <string name="edit_task_description">Skriv dine ønsker&#8230;</string>
+    <string name="priority_string">Prioritet</string>
+
+    <string name="high_priority">Høj</string>
+    <string name="med_priority">Mellem</string>
+    <string name="low_priority">Lav</string>
+
+    <string name="add_button">Tilføj</string>
+    <string name="update_button">Updater</string>
+</resources>

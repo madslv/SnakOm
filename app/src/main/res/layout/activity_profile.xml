@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapp9.MainActivity"
+    android:layout_marginTop="10dp">
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="195dp"
+            android:src="@drawable/forsidebillede"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="Profil"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/profileEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Email" />
+
+        <Button
+            android:id="@+id/button_tagsnakken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tag Snakken"
+
+            android:textSize="15dp"
+            android:textColor="#F5FDFF"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/button_gemdine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gem Dine Ønsker"
+
+            android:textSize="15dp"
+            android:textColor="#F5FDFF"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/button_hvor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hvor vil du begraves"
+
+            android:textSize="15dp"
+            android:textColor="#F5FDFF"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/button_bliv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BLIV KLOGERE"
+
+            android:textSize="15dp"
+            android:textColor="#F5FDFF"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/button_hent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hent data"
+
+            android:textSize="15dp"
+            android:textColor="#F5FDFF"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+
+            android:shadowColor="#A8A8A8"
+            android:text="Log ud"
+            android:textColor="#F5FDFF"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+
+</LinearLayout>

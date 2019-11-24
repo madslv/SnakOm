@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlivKlogere.BlivKlogereActivity">
+
+    <Button
+        android:id="@+id/button_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Læs mere her"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+
+        android:textSize="15dp"
+        android:textColor="#F5FDFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="158dp"
+        android:layout_height="174dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kirke" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="333dp"
+        android:layout_height="302dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_url"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.3"
+        app:srcCompat="@drawable/ikkemedlem" />
+</androidx.constraintlayout.widget.ConstraintLayout>
